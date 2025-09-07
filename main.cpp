@@ -7,7 +7,7 @@ using namespace sf;
 int main()
 {
 	//Create Window
-	RenderWindow window(VideoMode({ 1200,800 }), "SpawnBalls");
+	RenderWindow window(VideoMode({ 1200,800 }), "My Window");
 
 	//Infinity Loop to display window unless closed
 	while (window.isOpen()) {
@@ -26,4 +26,5 @@ int main()
 		//Display Window
 		window.display();
 	}
+
 }
